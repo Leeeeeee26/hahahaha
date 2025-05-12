@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Solo Leveling - Login</title>
+  <style>
+    body {
+      background-color: black;
+      background-image: url('1_rvic3fIB9oPry79fhjMuHw.gif');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    .div1 {
+      background-color: rgba(20, 20, 30, 0.9);
+      border-radius: 20px;
+      width: 450px;
+      padding: 40px;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(0, 123, 255, 0.5);
+      color: white;
+    }
+
+    h1 {
+      color: #00BFFF;
+      font-size: 28px;
+      margin-top: 0;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 90%;
+      padding: 15px;
+      margin: 15px 0;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      background-color: #1a1a2e;
+      color: #f0f0f0;
+    }
+
+    input[type="text"]::placeholder,
+    input[type="password"]::placeholder {
+      color: #aaa;
+    }
+
+    .button-group {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 15px;
+    }
+
+    .button {
+      width: 40%;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      background-color: #007BFF;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .button:hover {
+      background-color: black;
+    }
+
+    p {
+      margin-top: 20px;
+      font-size: 15px;
+      color: white;
+    }
+
+    p a {
+      color: #00BFFF;
+      text-decoration: none;
+    }
+
+    p a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="div1">
+    <h1>Solo Leveling Login</h1>
+    <form>
+      <input type="text" name="username" placeholder="Enter your username" required><br>
+      <input type="password" name="password" placeholder="Enter your password" required><br>
+      <div class="button-group">
+        <a href="arise.html" class="button">Sign In</a>
+        <a href="exit.html" class="button">Exit</a>
+      </div>
+      <p>Don't have an account? <a href="#">Sign up</a></p> 
+    </form>
+  </div>
+</body>
+</html>
