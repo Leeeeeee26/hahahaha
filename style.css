@@ -1,23 +1,48 @@
 
 
-@media (min-width: 600px) {
-    *{
-        .logo{
-            font-size: 16px;
-        }
-        .links{
-            font-size: 12px;
-            padding: 0.3rem 0.5rem;
-        }
+     .navbar-brand img {
+      height: 100px;
+      width: auto;
     }
+
+    .offcanvas-title img {
+      height: 40x;
+      width: auto;
+      margin-right: 10px;
+    }
+
+    .nav-link {
+      font-size: 2.00rem;
+      font-style: italic;
+      color: blue !important;
+    }
+
+
+   
+
+    @media (max-width: 991.98px) {
+      .login-button {
+        margin-right: 10px;
+      }
+    }
+
+
+
+.main-container{
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 90%;
 }
 
 .navbar {
-    background-color: #020750;
-    height: 105px;
-    margin: 20px;
-    border-radius: 16px;
-    padding: 0.5rem;
+    position: fixed;
+    background-color: darkcyan;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
 
 }
 .login-button {
@@ -31,7 +56,7 @@
 }
 
 .login-button:hover {
-    background-color: rebeccapurple;
+    background-color: darkslategray;
 }
 
 .navbar-toggler {
@@ -48,7 +73,7 @@
     position: relative;
     color: red;
     font-weight: 500;
-    transition: color 0.3s ease;
+    transition: color 1s ease;
 }
 
 .nav-link:hover{
@@ -69,32 +94,22 @@
 }
 
 
-
 body {
     background-image: url(1_rvic3fIB9oPry79fhjMuHw.gif);
+    background-attachment: fixed;
     background-repeat: no-repeat;
     height: 100%;
     background-size: cover;
-    max-width: 100%;
     height: auto;
     margin: 0;
        padding: 0;
     font-family: Arial, sans-serif;
 }
 
-header {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.5);
-}
 
-header img {
-    height: 100px;
-    width: 100px;
-    margin-right: 20px;
-    border-radius: 20px;
-}
+
+
+
 
 nav ul {
     list-style-type: none;
@@ -105,6 +120,7 @@ nav ul {
 
 nav ul li {
     margin-left: 50px;
+    width: fit-content;
 }
 
 nav ul li a {
@@ -145,4 +161,41 @@ nav img {
 .container img:hover{
     width: 25%;
 }
+
+@media (max-width: 1500px){
     
+    
+    body {
+    background-image: url(1_rvic3fIB9oPry79fhjMuHw.gif);
+    }    
+}
+
+@media (max-width: 1000px){
+    
+    
+    body {
+    background-image: url(1_rvic3fIB9oPry79fhjMuHw.gif);
+    
+}
+    
+  
+}
+
+@media (max-width: 500px){
+    
+    
+    body {
+    background-image: url(1_rvic3fIB9oPry79fhjMuHw.gif);
+    
+}
+    
+    
+  
+}
+
+   
+
+
+
+    
+
